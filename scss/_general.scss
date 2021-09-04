@@ -1,0 +1,113 @@
+// Background Color
+$bg-body: #fff7f3;
+$bg-header: white;
+$bg-nav: #FDDFDF;
+$bg-form:#c79fe786;
+
+// Font Color
+$colFont-nav: #c79fe7;
+$colFont-pg-h1: #C8E6C9;
+
+// Font Size
+$sizeFont-h1: 4rem;
+$sizeFont-h2: $sizeFont-h1 - 1rem;
+$sizeFont-h3: $sizeFont-h2 - 1rem;
+$sizeFont-h4: $sizeFont-h3 - .45rem;
+
+
+$font-family: 'Vollkorn', serif;
+$center: center;
+
+//  Mixin
+@mixin display ($display, $justify-content) {
+    display: $display;
+    justify-content: $justify-content;
+}
+
+// Extend Boton
+.btn {
+    border-radius: 5px;
+    background: transparent;
+    border: 1.5px solid $colFont-nav;
+    transition: .2s;
+
+    &:hover {
+        background-color: $colFont-nav;
+        color: white;
+    }
+}
+
+//Extend Input Text
+.input-text {
+    border: 1px solid rgba(0, 0, 0, 0.705);
+    color: #ba8be0;
+    font-weight: bold;
+    border-radius: 2px;
+    transition: all .15s;
+
+    &:focus {
+        box-shadow: 1px 1px 5px 2px $colFont-nav;
+        background-color: #ffffff;
+
+    }
+}
+
+.center {
+    text-align: $center;
+}
+
+// CSS General
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-family;
+
+    &::selection {
+        color: #ffffff;
+        background-color: rgb(160, 97, 212);
+    }
+}
+
+body {
+    background-color: $bg-body;
+
+
+}
+
+
+header {
+    background-color: $bg-header;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+
+a {
+    text-decoration: none;
+}
+
+//Titulos de Pages 
+
+.corporal__title--font,
+.capilar__title--font,
+.bucal__title--font,
+.contacto__title--font {
+    color: $colFont-pg-h1;
+    text-align: center;
+    font-size: 3.0em;
+    font-weight: bold;
+}
+
+.corporal__title,
+.capilar__title,
+.bucal__title,
+.contacto__title {
+    padding-top: 30px;
+}

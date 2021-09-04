@@ -1,0 +1,56 @@
+.prodDest {
+    font-size: 1.6rem;
+    max-width: 43.75em;
+    z-index: 10;
+
+    &__text {
+        font-size: $sizeFont-h3 + 0.3rem;
+        margin: 3.125em 1.25em 1.25em;
+        padding: 0.1875em 0;
+        text-align: center;
+        color: $colFont-pg-h1;
+        text-shadow: 0.110em 0.110em 0.07em #85bd87;
+        letter-spacing: 0.125em;
+        word-spacing: 0.5em;
+    }
+
+}
+
+.carousel-title {
+    font-size: $sizeFont-h2 - .5rem;
+    text-shadow: 1px 1px 10px black;
+}
+
+.carousel-text {
+    font-size: $sizeFont-h4;
+    text-shadow: 0px 0px 10px black;
+}
+
+.verMas {
+    font-size: 1.6rem;
+    margin: 1.25em auto;
+    padding: 0.25em;
+    border-radius: 0.3125em;
+    text-align: center;
+    border: 0.3125em double #adadad;
+    display: block;
+    background-color: #FDDFDF;
+    position: relative;
+    width: 11.25em;
+
+    &__link {
+        color: $colFont-nav;
+        font-weight: bold;
+        transition: all .18s;
+
+        &:hover {
+            text-shadow: 2px 2px 5px $colFont-nav;
+            color: $colFont-nav;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.125em;
+        }
+
+    }
+
+}

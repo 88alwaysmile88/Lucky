@@ -1,0 +1,35 @@
+$banner-Img: url(../Assets/img/naturaleza.jpg);
+
+.parallax {
+    font-size: 1.6rem;
+    width: 100%;
+    background-image: $banner-Img;
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    &__title {
+        text-align: center;
+        padding: 140px 0 25px;
+        font-size: $sizeFont-h1;
+        color: papayawhip;
+        text-shadow: 2px 2px 15px black;
+    }
+
+    &__text {
+        text-align: center;
+        color: rgba(255, 239, 213, 0.842);
+        text-shadow: 2px 2px 15px black;
+        font-size: $sizeFont-h2;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .parallax {
+        display: none;
+    }
+}

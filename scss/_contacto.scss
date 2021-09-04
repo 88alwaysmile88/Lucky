@@ -1,0 +1,137 @@
+section {
+
+    @include display (flex, center);
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+
+form {
+    background-color: $bg-form;
+    padding: .01em 0 1em;
+    margin: .5em 0 3.125em;
+    box-shadow: 0 0 10px $bg-form;
+    border-radius: 10px;
+
+}
+
+.form {
+    width: 100%;
+    margin: auto;
+}
+
+.grupo {
+    position: relative;
+    margin: 2.5em;
+
+
+}
+
+.form__input {
+    background: none;
+    padding: 0.6em 0.625em 0.625em 0.3125em;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid;
+
+    &:focus {
+        outline: none;
+        font-weight: bold;
+        font-size: 1.125em;
+        border-bottom: 2px solid $bg-body;
+    }
+
+}
+
+label {
+    font-size: 1.125em;
+    position: absolute;
+    left: 0.3125em;
+    top: 0.625em;
+    transition: .4s ease-in-out all;
+    pointer-events: none;
+    color: $colFont-pg-h1;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.253);
+
+}
+
+input:focus~label,
+input:valid~label {
+    top: -0.875em;
+    font-size: 1.0625em;
+    color: $bg-body;
+    font-weight: bold;
+
+}
+
+
+.barra {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+
+
+.genero,
+.edad,
+.mensaje {
+    padding: 0.5em;
+    margin: 0 1.875em;
+
+}
+
+
+.genero__text,
+.edad,
+.mensaje {
+    color: $bg-body;
+    font-weight: bold;
+    font-size: 1.0625em;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.253);
+}
+
+// .edad:after {
+//     background-color: $bg-body;
+//     font-size: 1em;
+// }
+
+textarea {
+    border-radius: 3px;
+    width: 100%;
+}
+
+.genero__m,
+.genero__o {
+    margin-left: 1.25em;
+}
+
+.edad__select {
+    border-radius: 5px;
+
+}
+
+
+.aceptar,
+.enviar,
+.limpiar {
+
+    margin: 0.9375em 0 0 1.25em;
+}
+
+.enviar,
+.limpiar {
+    display: inline-block;
+    width: 100px;
+    @extend .btn;
+    background-color: $bg-body;
+
+}
+
+@media only screen and (max-width:600px) {
+    form {
+        width: 75%;
+    }
+}

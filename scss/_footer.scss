@@ -1,0 +1,91 @@
+.novedades {
+    background-color: #fddfdf8c;
+    width: 100%;
+    height: 108px;
+    font-size: 1.6rem;
+    padding: 0 0 0 0;
+    text-align: center;
+
+    &__text {
+        font-size: $sizeFont-h3;
+        @include display (inline-flex, center);
+        flex-direction: row;
+        padding-top: 2.1em;
+
+
+    }
+
+    &__email {
+        color: #ba8be0;
+        font-weight: bold;
+        @extend .input-text;
+
+
+    }
+
+    &__submit {
+        width: 7.1875em;
+        height: 1.875em;
+        margin-left: 0.625em;
+
+        @extend .btn;
+
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .novedadesMobile {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+    .novedadesMobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .novedades {
+        display: none;
+    }
+
+    .novedadesMobile {
+        font-size: 1.6rem;
+        display: block;
+        text-align: center;
+        margin: 3.125em 0;
+
+        &__texto {
+            font-size: $sizeFont-h3;
+            text-align: center;
+
+        }
+
+    }
+
+}
+
+
+.footer {
+    font-size: 1.6rem;
+    background-color: $bg-nav;
+    @include display (flex, center);
+    padding: 1.25em 1.25em 1em;
+    text-align: center;
+
+    &__fb--size,
+    &__ig--size,
+    &__pt--size {
+        width: 70%;
+    }
+
+    @media only screen and (max-width: 767px) {
+
+        &__fb--size,
+        &__ig--size,
+        &__pt--size {
+            width: 25%;
+        }
+    }
+}

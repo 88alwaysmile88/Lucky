@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content= "Compra productos de Salud y Belleza 100% naturales por internet. Para ello podes contactarte con nosotros">
+    <meta name="keywords" content="Compra online, internet, shampoo sólido, crema facial, crema corporal, natural, vegetal">
+
+    <title>Contacto - Lucky</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,700;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Favicon -->    
+    <link rel="shortcut icon" href="/Assets/icon/favicon2.png">
+
+    <!-- Nuestro CSS-->
+    <link rel="stylesheet" href="/css/estilo.css">
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <header>
+        <div class="navTop">
+            <input class="navTop__buscador" type="text" placeholder="Buscar..">
+            <button class="navTop__submit" type="submit">Buscar</button>
+            <a href="/index.html" class="center"><img class="navTop__logo" src="/Assets/icon/logo.png"
+                    alt="Logo-Lucky"></a>
+            <a class="navTop__miCuenta" href="#">Mi Cuenta</a>
+            <a class="navTop__carrito" href="#">Carrito</a>
+        </div>
+        <nav class="navBt">
+            <ul class="navBt__ul">
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/pages/CuidadoCapilar.html">Cuidado Capilar</a></li>
+                <li><a href="/pages/CuidadoFacial.html">Cuidado Facial</a></li>
+                <li><a href="/pages/CuidadoCorporal.html">Cuidado Corporal</a></li>
+                <li class="active"><a href="/pages/Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contacto">
+        <h1 class="contacto__title contacto__title--font">Contacto</h1>
+    </div>
+    <section>
+        <form action="#" method="#">
+
+            <div class="form wow fadeIn">
+                <div class="grupo">
+                    <input class="form__input" type="text" required name="Nombre"><span class="barra"></span>
+                    <label class="form__label" for="">Nombre y Apellido:</label>
+                </div>
+
+                <div class="grupo">
+                    <input class="form__input" type="email" required name="email"><span class="barra"></span>
+                    <label class="form__label" for="">E-mail:</label>
+                </div>
+
+                <div class="grupo">
+                    <input class="form__input" type="tel" required name="tel"><span class="barra"></span>
+                    <label class="form__label" for="">Telefono/Celular:</label>
+                </div>
+                <div class="genero">
+                    <p class="genero__text">Genero:</p>
+                    <input class="genero__h" type="radio" required name="genero" value="Hombre">Hombre
+                    <input class="genero__m" type="radio" name="genero" value="Mujer">Mujer
+                    <input class="genero__o" type="radio" name="genero" value="Mujer">Otro
+                </div>
+
+                <!-- <div class="edad">
+                    <p>Edad:</p>
+                    <select class="edad__select" name="Edad:">
+                        <option selected disabled>Edad..</option>
+                        <option value="-18">-18</option>
+                        <option value="18-24">18-24</option>
+                        <option value="25-34">25-34</option>
+                        <option value="35-44">35-44</option>
+                        <option value="45-54">45-54</option>
+                        <option value="55-64">55-64</option>
+                        <option value="+65">+65</option>
+                    </select>
+                </div> -->
+
+                <div class="mensaje">
+                    <p>Mensaje</p>
+                    <textarea name="Mensaje" id="Mensaje" cols="50" rows="5" placeholder="Escribe aqui.."
+                        required></textarea>
+                </div>
+
+                <div>
+                    <span class="aceptar">Acepto recibir Newsletters</span>
+                    <input class="form__textoCB" type="checkbox" name="Acepta" value="1">
+                </div>
+
+                <button class="enviar" type="submit">Enviar</button>
+                <button class="limpiar" type="submit">Limpiar</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Novedades -->
+    <div class="novedades">
+        <h3 class="novedades__text">Enterate de todas las ofertas y novedades!</h3>
+        <input class="novedades__email" type="email" placeholder="Tu E-mail..">
+        <input class="novedades__submit" type="submit" value="Suscribirme">
+    </div>
+    <div class="novedadesMobile">
+        <h3 class="novedadesMobile__texto">Recibí nuestros Newsletters</h3><input class="novedadesMobile__email"
+            type="email" placeholder="Tu E-mail.."> <input class="novedadesMobile__submit" type="submit"
+            value="Suscribirme">
+    </div>
+    <!-- Footer -->
+    <footer class="footer container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <a class="footer__fb" href="#" target="_blank"><img class="footer__fb--size" src="/Assets/icon/fb1.png"
+                        alt="facebook-link"></a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <a class="footer__ig" href="#" target="_blank"><img class="footer__ig--size" src="/Assets/icon/ig1.png"
+                        alt="instagram-link"></a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <a class="footer__pt" href="#" target="_blank"><img class="footer__pt--size" src="/Assets/icon/pt1.png"
+                        alt="pinterest-link"></a>
+            </div>
+        </div>
+    </footer>
+
+    <!--Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
