@@ -152,7 +152,8 @@ a {
 
 .navBt ul li:hover {
   border-radius: 0.1875em;
-  text-shadow: 0.125em 0.125em 0.3125em; }
+  text-shadow: 0.125em 0.125em 0.3125em;
+  color: white; }
 
 .navBt ul li a {
   list-style: none;
