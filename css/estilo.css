@@ -49,7 +49,7 @@ a {
 
 .corporal__title--font,
 .capilar__title--font,
-.bucal__title--font,
+.facial__title--font,
 .contacto__title--font {
   color: #C8E6C9;
   text-align: center;
@@ -58,7 +58,7 @@ a {
 
 .corporal__title,
 .capilar__title,
-.bucal__title,
+.facial__title,
 .contacto__title {
   padding-top: 30px; }
 
@@ -166,7 +166,7 @@ a {
 .parallax {
   font-size: 1.6rem;
   width: 100%;
-  background-image: url(../Assets/img/naturaleza.jpg);
+  background-image: url(../assets/img/nature.jpg);
   height: 400px;
   background-attachment: fixed;
   background-position: center;
