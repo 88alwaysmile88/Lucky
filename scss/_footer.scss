@@ -1,3 +1,23 @@
+.contactanos li {
+    list-style: none;
+
+    }
+
+a .contactanos__mail, a .contactanos__ws {
+    text-decoration: none;
+}
+
+.redes li {
+    list-style: none;
+}
+
+div h4 {
+    color: $colFont-nav;
+    font-weight: bold;
+    font-size: 1.6rem;
+
+}
+
 .novedades {
     background-color: #fddfdf8c;
     width: 100%;
@@ -74,18 +94,4 @@
     padding: 1.25em 1.25em 1em;
     text-align: center;
 
-    &__fb--size,
-    &__ig--size,
-    &__pt--size {
-        width: 70%;
-    }
-
-    @media only screen and (max-width: 767px) {
-
-        &__fb--size,
-        &__ig--size,
-        &__pt--size {
-            width: 25%;
-        }
-    }
 }

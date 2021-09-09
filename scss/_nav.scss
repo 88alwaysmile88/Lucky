@@ -39,7 +39,7 @@
         color: black;
         border-bottom: 1.5px solid $colFont-nav;
         height: 1.5625em;
-        text-decoration: none !important;
+        text-decoration: none;
         transition: all .18s;
 
         &:hover {
@@ -57,7 +57,7 @@
         color: black;
         border-bottom: 0.0938em solid $colFont-nav;
         height: 1.5625em;
-        text-decoration: none !important;
+        text-decoration: none;
         transition: all .18s;
 
         &:hover {

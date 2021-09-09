@@ -91,7 +91,7 @@ a {
     color: black;
     border-bottom: 1.5px solid #c79fe7;
     height: 1.5625em;
-    text-decoration: none !important;
+    text-decoration: none;
     transition: all .18s; }
     .navTop__miCuenta:hover {
       text-shadow: 0.125em 0.125em 0.3125em #c79fe7;
@@ -105,7 +105,7 @@ a {
     color: black;
     border-bottom: 0.0938em solid #c79fe7;
     height: 1.5625em;
-    text-decoration: none !important;
+    text-decoration: none;
     transition: all .18s; }
     .navTop__carrito:hover {
       text-shadow: 0.125em 0.125em 0.3125em #c79fe7;
@@ -232,6 +232,20 @@ a {
       font-weight: bold;
       font-size: 1.125em; }
 
+.contactanos li {
+  list-style: none; }
+
+a .contactanos__mail, a .contactanos__ws {
+  text-decoration: none; }
+
+.redes li {
+  list-style: none; }
+
+div h4 {
+  color: #c79fe7;
+  font-weight: bold;
+  font-size: 1.6rem; }
+
 .novedades {
   background-color: #fddfdf8c;
   width: 100%;
@@ -280,11 +294,6 @@ a {
   justify-content: center;
   padding: 1.25em 1.25em 1em;
   text-align: center; }
-  .footer__fb--size, .footer__ig--size, .footer__pt--size {
-    width: 70%; }
-  @media only screen and (max-width: 767px) {
-    .footer__fb--size, .footer__ig--size, .footer__pt--size {
-      width: 25%; } }
 
 section {
   display: flex;
