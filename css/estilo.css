@@ -232,22 +232,8 @@ a {
       font-weight: bold;
       font-size: 1.125em; }
 
-.contactanos li {
-  list-style: none; }
-
-a .contactanos__mail, a .contactanos__ws {
-  text-decoration: none; }
-
-.redes li {
-  list-style: none; }
-
-div h4 {
-  color: #c79fe7;
-  font-weight: bold;
-  font-size: 1.6rem; }
-
 .novedades {
-  background-color: #fddfdf8c;
+  background-color: #fddfdf6b;
   width: 100%;
   height: 108px;
   font-size: 1.6rem;
@@ -288,12 +274,63 @@ div h4 {
       text-align: center; } }
 
 .footer {
-  font-size: 1.6rem;
   background-color: #FDDFDF;
+  padding: 40px 0; }
+
+.footer.row {
   display: flex;
-  justify-content: center;
-  padding: 1.25em 1.25em 1em;
-  text-align: center; }
+  flex-wrap: wrap; }
+
+.footer-container {
+  max-width: 1170px;
+  margin: auto; }
+
+.contactanos h4,
+.redes h4 {
+  color: #c79fe7;
+  font-weight: bold;
+  font-size: 1.6rem;
+  margin-bottom: 18px; }
+
+.contactanos__mail,
+.contactanos__ws {
+  font-size: 1.6rem;
+  padding-left: 60px; }
+
+.contactanos,
+.redes {
+  padding: 0 100px; }
+
+.contactanos ul,
+.redes ul {
+  list-style: none;
+  margin-bottom: 0; }
+
+.contactanos ul li a,
+.redes ul li a {
+  text-decoration: none;
+  color: #000000;
+  transition: all .3s ease; }
+
+.contactanos ul li a:hover {
+  padding-left: 8px;
+  font-weight: bold; }
+
+.redes ul li a:hover {
+  padding-left: 8px;
+  font-weight: bold; }
+
+.redes__lista {
+  display: flex;
+  justify-content: space-evenly; }
+
+.fa-envelope {
+  color: #c79fe7;
+  width: 25px; }
+
+.fa-whatsapp {
+  color: #45b653;
+  width: 25px; }
 
 section {
   display: flex;
