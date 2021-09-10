@@ -120,24 +120,59 @@
 .redes ul li a {
     text-decoration: none;
     color: #000000;
-    transition: all .3s ease;
+    transition: all .4s ease;
 }
 
-.contactanos ul li a:hover {
+.mail-link:hover {
     padding-left: 8px;
     font-weight: bold;
 }
 
-.redes ul li a:hover {
+.ws-link:hover {
     padding-left: 8px;
     font-weight: bold;
 }
+
 
 
 .redes__lista {
     display: flex;
     justify-content: space-evenly;
 }
+
+
+//Animacion Iconos Redes Sociales
+
+.fb-icon:hover {
+    transform: translateY(-4px);
+    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+
+}
+
+.fb-icon:active {
+    transform: translateY(3px);
+}
+
+.ig-icon:hover {
+    transform: translateY(-4px);
+    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+
+}
+
+.ig-icon:active {
+    transform: translateY(3px);
+}
+
+.pt-icon:hover {
+    transform: translateY(-4px);
+    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+
+}
+
+.pt-icon:active {
+    transform: translateY(3px);
+}
+
 
 
 .fa-envelope {
