@@ -60,7 +60,8 @@ a {
 .capilar__title,
 .facial__title,
 .contacto__title {
-  padding-top: 30px; }
+  margin: 30px 0;
+  padding: 10px; }
 
 /* BARRA DE NAVEGACION */
 /* Superior */
@@ -91,7 +92,7 @@ a {
     color: black;
     border-bottom: 1.5px solid #c79fe7;
     height: 1.5625em;
-    text-decoration: none !important;
+    text-decoration: none;
     transition: all .18s; }
     .navTop__miCuenta:hover {
       text-shadow: 0.125em 0.125em 0.3125em #c79fe7;
@@ -105,7 +106,7 @@ a {
     color: black;
     border-bottom: 0.0938em solid #c79fe7;
     height: 1.5625em;
-    text-decoration: none !important;
+    text-decoration: none;
     transition: all .18s; }
     .navTop__carrito:hover {
       text-shadow: 0.125em 0.125em 0.3125em #c79fe7;
@@ -194,8 +195,8 @@ a {
   z-index: 10; }
   .prodDest__text {
     font-size: 2.3rem;
-    margin: 3.125em 1.25em 1.25em;
-    padding: 0.1875em 0;
+    margin: 30px 0px;
+    padding: 10px;
     text-align: center;
     color: #C8E6C9;
     text-shadow: 0.110em 0.110em 0.07em #85bd87;
@@ -233,7 +234,7 @@ a {
       font-size: 1.125em; }
 
 .novedades {
-  background-color: #fddfdf8c;
+  background-color: #fddfdf6b;
   width: 100%;
   height: 108px;
   font-size: 1.6rem;
@@ -274,17 +275,102 @@ a {
       text-align: center; } }
 
 .footer {
-  font-size: 1.6rem;
   background-color: #FDDFDF;
+  padding: 30px 0; }
+
+.footer.row {
   display: flex;
-  justify-content: center;
-  padding: 1.25em 1.25em 1em;
-  text-align: center; }
-  .footer__fb--size, .footer__ig--size, .footer__pt--size {
-    width: 70%; }
-  @media only screen and (max-width: 767px) {
-    .footer__fb--size, .footer__ig--size, .footer__pt--size {
-      width: 25%; } }
+  flex-wrap: wrap; }
+
+.footer-container {
+  max-width: 1170px;
+  margin: auto; }
+
+.contactanos h4,
+.redes h4 {
+  color: #c79fe7;
+  font-weight: bold;
+  font-size: 1.6rem;
+  margin-bottom: 18px; }
+
+@media only screen and (min-width: 1024px) {
+  .contactanos__mail,
+  .contactanos__ws {
+    font-size: 1.6rem;
+    padding-left: 100px; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .contactanos__mail,
+  .contactanos__ws {
+    font-size: 1.6em;
+    padding-left: 50px; } }
+
+@media only screen and (max-width: 767px) {
+  .contactanos__mail,
+  .contactanos__ws {
+    font-size: 1.6em;
+    text-align: center;
+    padding-left: auto; } }
+
+@media only screen and (max-width: 767px) {
+  .contactanos__ws {
+    margin-bottom: 30px; } }
+
+.contactanos,
+.redes {
+  padding: 0 100px; }
+
+.contactanos ul,
+.redes ul {
+  list-style: none;
+  margin-bottom: 0; }
+
+.contactanos ul li a,
+.redes ul li a {
+  text-decoration: none;
+  color: #000000;
+  transition: all .4s ease; }
+
+.mail-link:hover {
+  padding-left: 8px;
+  font-weight: bold; }
+
+.ws-link:hover {
+  padding-left: 8px;
+  font-weight: bold; }
+
+.redes__lista {
+  display: flex;
+  justify-content: space-evenly; }
+
+.fb-icon:hover {
+  transform: translateY(-4px);
+  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s; }
+
+.fb-icon:active {
+  transform: translateY(3px); }
+
+.ig-icon:hover {
+  transform: translateY(-4px);
+  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s; }
+
+.ig-icon:active {
+  transform: translateY(3px); }
+
+.pt-icon:hover {
+  transform: translateY(-4px);
+  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s; }
+
+.pt-icon:active {
+  transform: translateY(3px); }
+
+.fa-envelope {
+  color: #c79fe7;
+  width: 25px; }
+
+.fa-whatsapp {
+  color: #45b653;
+  width: 25px; }
 
 section {
   display: flex;
