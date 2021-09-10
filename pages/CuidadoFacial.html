@@ -25,6 +25,9 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="../assets/icon/favicon.png">
 
+     <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
     <!-- Nuestro CSS-->
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
@@ -109,23 +112,35 @@
             type="email" placeholder="Tu E-mail.."> <input class="novedadesMobile__submit" type="submit"
             value="Suscribirme">
     </div>
-    <!-- Footer -->
-    <footer class="footer container-fluid">
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                <a class="footer__fb" href="https://www.facebook.com" target="_blank"><img class="footer__fb--size"
-                        src="../assets/icon/fb.png" alt="facebook-link"></a>
+            <div class="contactanos col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <h4 class="center">CONTACTANOS</h4>
+                <ul>
+                    <li class="contactanos__mail"><i class="fas fa-envelope"></i><a class="mail-link"
+                            href="mailto:lucky.cosmeticanatural@gmail.com"
+                            target="_blank">lucky.natural@gmail.com</a></li>
+                    <li class="contactanos__ws"><i class="fab fa-whatsapp"></i><a class="ws-link"
+                            href="https://api.whatsapp.com/send?phone=+541140244040" target="_blank">+54 11
+                            40244040</a></li>
+                </ul>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                <a class="footer__ig" href="https://www.instagram.com" target="_blank"><img class="footer__ig--size"
-                        src="../assets/icon/ig.png" alt="instagram-link"></a>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                <a class="footer__pt" href="https://ar.pinterest.com" target="_blank"><img class="footer__pt--size"
-                        src="../assets/icon/pt.png" alt="pinterest-link"></a>
+            <div class="redes col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <h4 class="center">REDES SOCIALES</h4>
+                <ul class="redes__lista center">
+                    <li><a class="redes__fb" href="https://www.facebook.com" target="_blank"><img
+                                class="fb-icon" src="../assets/icon/fb.png" alt="facebook-link"></a></li>
+                    <li><a class="redes__ig" href="https://www.instagram.com" target="_blank"><img
+                                class="ig-icon" src="../assets/icon/ig.png" alt="instagram-link"></a></li>
+                    <li><a class="redes__pt" href="https://ar.pinterest.com" target="_blank"><img
+                                class="pt-icon" src="../assets/icon/pt.png" alt="pinterest-link"></a></li>
+                </ul>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
 
     <!--Bootstrap JS-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

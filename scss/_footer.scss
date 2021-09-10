@@ -72,7 +72,7 @@
 
 .footer {
     background-color: $bg-nav;
-    padding: 40px 0;
+    padding: 35px 0;
 }
 
 .footer.row {
@@ -96,11 +96,31 @@
 
 }
 
+
 .contactanos__mail,
 .contactanos__ws {
-    font-size: 1.6rem;
-    padding-left: 60px;
 
+    @media only screen and (min-width: 1024px) {
+        font-size: 1.6rem;
+        padding-left: 150px;
+    }
+
+    @media only screen and (min-width:768px) and (max-width:1023px) {
+            font-size: 1.6em;
+            padding-left: 50px;    
+    }
+    @media only screen and (max-width:767px) {
+        font-size: 1.6em;
+        text-align: center;
+        padding-left: auto; 
+    }
+
+}
+
+.contactanos__ws {
+    @media only screen and (max-width:767px) {
+        margin-bottom: 30px;
+    }
 }
 
 .contactanos,
@@ -178,6 +198,7 @@
 .fa-envelope {
     color: $colFont-nav;
     width: 25px;
+    
 }
 
 .fa-whatsapp {
