@@ -512,3 +512,18 @@ textarea {
     height: auto; }
   .btn-index {
     width: 50%; } }
+
+.card-body {
+  padding: 15px; }
+
+.card-title {
+  font-size: 18px;
+  text-align: center; }
+
+.card-text {
+  font-size: 14px; }
+
+.card-size {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 40px; }
