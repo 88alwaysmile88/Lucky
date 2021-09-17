@@ -1,0 +1,15 @@
+.card-size {
+    @extend .card-general;
+}
+
+.card-body {
+    @extend .card-individual;
+}
+
+.card-title {
+    @extend .card-titulo;
+}
+
+.card-text {
+    @extend .card-texto;
+}

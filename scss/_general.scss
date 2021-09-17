@@ -15,16 +15,19 @@ $sizeFont-h3: $sizeFont-h2 - 1rem;
 $sizeFont-h4: $sizeFont-h3 - .45rem;
 
 
-$font-family: 'Vollkorn', serif;
+$font-family: 'Vollkorn',
+serif;
 $center: center;
 
-//  Mixin
+//  MIXIN
 @mixin display ($display, $justify-content) {
     display: $display;
     justify-content: $justify-content;
 }
 
-// Extend Boton
+
+
+// EXTEND Boton
 .btn {
     border-radius: 5px;
     background: transparent;
@@ -37,7 +40,7 @@ $center: center;
     }
 }
 
-//Extend Input Text
+//EXTEND Input Text
 .input-text {
     border: 1px solid rgba(0, 0, 0, 0.705);
     color: #ba8be0;
@@ -51,6 +54,28 @@ $center: center;
 
     }
 }
+
+//EXTEND-Cards
+.card-general {
+    width: 65%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.card-individual {
+    padding: 15px;
+}
+
+.card-titulo {
+    font-size: 18px;
+    text-align: center;
+}
+
+.card-texto {
+    font-size: 14px;
+    text-align: justify;
+}
+
 
 .center {
     text-align: $center;

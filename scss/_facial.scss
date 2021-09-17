@@ -1,25 +1,37 @@
+.card-size {
+    @extend .card-general;
+}
+
 .card-body {
-    padding: 15px;
-
-
+    @extend .card-individual;
 }
 
 .card-title {
-    font-size: 18px;
-    text-align: center;
+    @extend .card-titulo;
 }
 
 .card-text {
-    font-size: 14px;
+    @extend .card-texto;
 }
 
 
 
+// .card-size {
+//     width: 65%;
+//     margin: auto;
+//     margin-bottom: 40px;
+// }
 
+// .card-body {
+//     padding: 15px;
+// }
 
-.card-size {
-    width: 80%;
-    margin: auto;
-    margin-bottom: 40px;
+// .card-title {
+//     font-size: 18px;
+//     text-align: center;
+// }
 
-}
+// .card-text {
+//     font-size: 14px;
+//     text-align:justify ;
+// }

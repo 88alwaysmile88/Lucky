@@ -19,6 +19,22 @@
     box-shadow: 1px 1px 5px 2px #c79fe7;
     background-color: #ffffff; }
 
+.card-general, .card-size {
+  width: 65%;
+  margin: auto;
+  margin-bottom: 40px; }
+
+.card-individual, .card-body {
+  padding: 15px; }
+
+.card-titulo, .card-title {
+  font-size: 18px;
+  text-align: center; }
+
+.card-texto, .card-text {
+  font-size: 14px;
+  text-align: justify; }
+
 .center {
   text-align: center; }
 
@@ -512,18 +528,3 @@ textarea {
     height: auto; }
   .btn-index {
     width: 50%; } }
-
-.card-body {
-  padding: 15px; }
-
-.card-title {
-  font-size: 18px;
-  text-align: center; }
-
-.card-text {
-  font-size: 14px; }
-
-.card-size {
-  width: 80%;
-  margin: auto;
-  margin-bottom: 40px; }
