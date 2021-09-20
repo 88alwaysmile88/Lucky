@@ -79,12 +79,12 @@ a {
   margin: 30px 0;
   padding: 10px; }
 
-/* BARRA DE NAVEGACION */
+/* BARRA DE NAVEGACION DESKTOP/TABLET */
 /* Superior */
 .navTop {
   font-size: 1.6rem;
   display: grid;
-  grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr 4fr 3fr 1fr;
   grid-template-rows: auto auto;
   z-index: 20; }
   .navTop__buscador {
@@ -105,17 +105,15 @@ a {
   .navTop__miCuenta {
     justify-self: end;
     margin: 0.625em;
-    color: black;
+    color: #000000;
     border-bottom: 1.5px solid #c79fe7;
     height: 1.5625em;
     text-decoration: none;
     transition: all .18s; }
     .navTop__miCuenta:hover {
-      text-shadow: 0.125em 0.125em 0.3125em #c79fe7;
-      color: #c79fe7;
-      text-decoration: none;
-      font-size: 1.0625em;
-      border-bottom: 1px solid black; }
+      color: #000000;
+      font-weight: bold;
+      text-decoration: none; }
   .navTop__carrito {
     justify-self: center;
     margin: 0.625em;
@@ -141,7 +139,9 @@ a {
       display: none; }
     .navTop__logo {
       max-width: 21.875em;
-      min-width: 250px; } }
+      min-width: 200px; }
+  .navbar-desktop {
+    display: none; } }
 
 /* Inferior */
 .navBt {
@@ -179,6 +179,31 @@ a {
   padding: 0.4375em;
   font-size: 2rem;
   color: #c79fe7; }
+
+/* BARRA DE NAVEGACION MOBILE */
+.navbar-mobile {
+  background-color: #ffffff;
+  padding: 0; }
+  @media only screen and (min-width: 768px) {
+    .navbar-mobile {
+      display: none; } }
+
+.navbar-toggler {
+  background-color: #FDDFDF;
+  width: 13%;
+  height: 10%;
+  margin-right: 10px; }
+
+.navbar-toggler-icon {
+  width: 100%;
+  height: 25px; }
+
+a.nav-link {
+  color: #c79fe7 !important;
+  font-size: 18px; }
+
+#navbarNav {
+  background-color: #FDDFDF; }
 
 .parallax {
   font-size: 1.6rem;
