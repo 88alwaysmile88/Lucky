@@ -12,8 +12,11 @@
         text-shadow: 0.110em 0.110em 0.07em #85bd87;
         letter-spacing: 0.125em;
         word-spacing: 0.5em;
+        @media only screen and (max-width:768px) {
+            font-size: $sizeFont-h3;
+        }
     }
-
+  
 }
 
 .carousel-title {
