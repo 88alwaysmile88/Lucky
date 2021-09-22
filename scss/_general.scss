@@ -9,10 +9,10 @@ $colFont-nav: #c79fe7;
 $colFont-pg-h1: #C8E6C9;
 
 // Font Size
-$sizeFont-h1: 4rem;
-$sizeFont-h2: $sizeFont-h1 - 1rem;
-$sizeFont-h3: $sizeFont-h2 - 1rem;
-$sizeFont-h4: $sizeFont-h3 - .45rem;
+$sizeFont-h1: 3.375rem;
+$sizeFont-h2: $sizeFont-h1 - 0.625rem;
+$sizeFont-h3: $sizeFont-h2 - 0.625rem;
+$sizeFont-h4: $sizeFont-h3 - 0.3125rem;
 
 
 $font-family: 'Vollkorn',
@@ -128,6 +128,10 @@ a {
     text-align: center;
     font-size: 3.0em;
     font-weight: bold;
+
+    @media only screen and (width:767px) {
+        font-size: $sizeFont-h3;
+    }
 }
 
 .corporal__title,

@@ -71,6 +71,12 @@ a {
   text-align: center;
   font-size: 3.0em;
   font-weight: bold; }
+  @media only screen and (width: 767px) {
+    .corporal__title--font,
+    .capilar__title--font,
+    .facial__title--font,
+    .contacto__title--font {
+      font-size: 2.125rem; } }
 
 .corporal__title,
 .capilar__title,
@@ -177,7 +183,7 @@ a {
   text-decoration: none;
   margin: 0.9375em;
   padding: 0.4375em;
-  font-size: 2rem;
+  font-size: 2.125rem;
   color: #c79fe7; }
 
 /* BARRA DE NAVEGACION MOBILE */
@@ -220,14 +226,14 @@ a.nav-link {
     .parallax__title {
       text-align: center;
       padding: 140px 0 25px;
-      font-size: 4rem;
+      font-size: 3.375rem;
       color: papayawhip;
       text-shadow: 2px 2px 15px black; }
     .parallax__text {
       text-align: center;
       color: rgba(255, 239, 213, 0.842);
       text-shadow: 2px 2px 15px black;
-      font-size: 3rem; } }
+      font-size: 2.75rem; } }
 
 @media only screen and (max-width: 767px) {
   .parallax {
@@ -240,7 +246,7 @@ a.nav-link {
     background-repeat: no-repeat; }
     .parallaxMobile__title {
       text-align: center;
-      padding: 60px 0 0;
+      padding: 55px 0 0;
       font-size: 20px;
       color: #ffefd5;
       text-shadow: 2px 2px 15px black; }
@@ -257,7 +263,7 @@ a.nav-link {
   max-width: 43.75em;
   z-index: 10; }
   .prodDest__text {
-    font-size: 2.3rem;
+    font-size: 2.425rem;
     margin: 30px 0px;
     padding: 10px;
     text-align: center;
@@ -265,16 +271,16 @@ a.nav-link {
     text-shadow: 0.110em 0.110em 0.07em #85bd87;
     letter-spacing: 0.125em;
     word-spacing: 0.5em; }
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 767px) {
       .prodDest__text {
-        font-size: 2rem; } }
+        font-size: 2.125rem; } }
 
 .carousel-title {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   text-shadow: 1px 1px 10px black; }
 
 .carousel-text {
-  font-size: 1.55rem;
+  font-size: 1.8125rem;
   text-shadow: 0px 0px 10px black; }
 
 .verMas {
@@ -307,7 +313,7 @@ a.nav-link {
   padding: 0 0 0 0;
   text-align: center; }
   .novedades__text {
-    font-size: 2rem;
+    font-size: 2.125rem;
     display: inline-flex;
     justify-content: center;
     flex-direction: row;
@@ -337,7 +343,7 @@ a.nav-link {
     text-align: center;
     margin: 3.125em 0; }
     .novedadesMobile__texto {
-      font-size: 2rem;
+      font-size: 2.125rem;
       text-align: center; } }
 
 .footer {
@@ -555,7 +561,7 @@ textarea {
   margin-bottom: 3.125em; }
 
 .btn-index {
-  font-size: 2rem;
+  font-size: 2.125rem;
   border-radius: 5px;
   width: 11.25em;
   height: 2.5em;
