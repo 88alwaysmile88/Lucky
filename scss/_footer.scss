@@ -57,7 +57,7 @@
         margin: 3.125em 0;
 
         &__texto {
-            font-size: $sizeFont-h3;
+            font-size: $sizeFont-h4;
             text-align: center;
 
         }
@@ -106,13 +106,14 @@
     }
 
     @media only screen and (min-width:768px) and (max-width:1023px) {
-            font-size: 1.6em;
-            padding-left: 50px;    
+        font-size: 1.6em;
+        padding-left: 50px;
     }
+
     @media only screen and (max-width:767px) {
         font-size: 1.6em;
         text-align: center;
-        padding-left: auto; 
+        padding-left: auto;
     }
 
 }
@@ -198,7 +199,7 @@
 .fa-envelope {
     color: $colFont-nav;
     width: 25px;
-    
+
 }
 
 .fa-whatsapp {
