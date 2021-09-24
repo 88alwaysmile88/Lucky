@@ -86,10 +86,27 @@ a {
   padding: 10px; }
 
 .card {
-  border-radius: 20px; }
+  border-radius: 20px;
+  margin-bottom: 50px;
+  border: none;
+  box-shadow: 1px 1px 10px #808080; }
 
 .card-img-top {
   border-radius: 20px 20px 0 0; }
+
+.izq {
+  margin-right: 30px; }
+
+.der {
+  margin-left: 30px; }
+
+.card-title {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold; }
+
+.card-text {
+  font-size: 15px; }
 
 /* BARRA DE NAVEGACION DESKTOP/TABLET */
 /* Superior */
@@ -593,9 +610,3 @@ textarea {
     height: auto; }
   .btn-index {
     width: 50%; } }
-
-.card {
-  border-radius: 20px; }
-
-.card-img-top {
-  border-radius: 20px 20px 0 0; }
