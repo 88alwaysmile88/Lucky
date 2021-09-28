@@ -330,7 +330,7 @@ a.nav-link {
 
 .caracteristicas {
   background-color: rgba(255, 255, 255, 0.767);
-  border-right: 1px solid black; }
+  border-right: 1px solid #000000; }
   @media only screen and (max-width: 767px) {
     .caracteristicas {
       border-right: 0; } }
@@ -390,7 +390,7 @@ a.nav-link {
     font-size: 1.6rem;
     display: block;
     text-align: center;
-    margin: 0 0 3.125em; }
+    margin: 0 0 30px; }
     .novedadesMobile__texto {
       font-size: 1.9rem;
       text-align: center;
