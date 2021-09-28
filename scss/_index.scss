@@ -3,6 +3,7 @@
     font-size: 1.6rem;
     max-width: 43.75em;
     z-index: 10;
+
     &__text {
         font-size: $sizeFont-h3 + 0.3rem;
         margin: 30px 0px;
@@ -12,6 +13,7 @@
         text-shadow: 0.110em 0.110em 0.07em #85bd87;
         letter-spacing: 0.125em;
         word-spacing: 0.5em;
+
         @media only screen and (max-width: 767px) {
             font-size: $sizeFont-h3;
         }
@@ -41,10 +43,12 @@
     background-color: #FDDFDF;
     position: relative;
     width: 11.25em;
+
     &__link {
         color: $colFont-nav;
         font-weight: bold;
         transition: all .18s;
+
         &:hover {
             text-shadow: 2px 2px 5px $colFont-nav;
             color: $colFont-nav;
@@ -60,20 +64,21 @@
 .caracteristicas {
     background-color: rgba(255, 255, 255, 0.767);
     border-right: 1px solid #000000;
+
     @media only screen and (max-width:767px) {
         border-right: 0;
     }
 }
 
 .caracteristicas1 {
-    background-color: rgba(255, 255, 255, 0.767); 
-
+    background-color: rgba(255, 255, 255, 0.767);
 }
 
 .iconMod {
     border-radius: 70px;
     margin: 10px 0 25px;
     padding-top: 10px;
+
     @media only screen and (max-width:767px) {
         width: 40%;
     }
