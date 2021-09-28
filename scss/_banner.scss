@@ -1,5 +1,5 @@
 $bannerDesktop-Img: url(../assets/img/nature.jpg);
-$bannerMobile-Img: url(../assets/img/natmobile.jpg);
+$bannerMobile-Img: url(../assets/img/natmobile1.jpg);
 
 
 @media only screen and (min-width: 768px) {
@@ -43,21 +43,21 @@ $bannerMobile-Img: url(../assets/img/natmobile.jpg);
         font-size: 1.6rem;
         width: 100%;
         background-image: $bannerMobile-Img;
-        height: auto;
+        height: 200px;
         background-repeat: no-repeat;
     
         &__title {
             text-align: center;
-            padding: 55px 0 0;
+            padding: 80px 0 0;
             font-size: 20px;
-            color: #ffefd5;
-            text-shadow: 2px 2px 15px black;
+            color: #65b352;
+            text-shadow: 2px 2px 15px #65b3528c;
         }
     
         &__text {
             text-align: center;
-            color: #ffefd5;
-            text-shadow: 2px 2px 15px black;
+            color: #65b352;
+            text-shadow: 2px 2px 15px #65b3528c;
             font-size: 18px;
             margin-bottom: 0;
             padding-bottom: 15px;

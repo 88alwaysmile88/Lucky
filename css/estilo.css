@@ -220,8 +220,8 @@ a {
 .navbar-toggler {
   background-color: #fddfdf;
   width: 13%;
-  height: 10%;
-  margin-right: 10px; }
+  height: 35px;
+  margin-right: 20px; }
 
 .navbar-toggler-icon {
   width: 100%;
@@ -264,19 +264,19 @@ a.nav-link {
   .parallaxMobile {
     font-size: 1.6rem;
     width: 100%;
-    background-image: url(../assets/img/natmobile.jpg);
-    height: auto;
+    background-image: url(../assets/img/natmobile1.jpg);
+    height: 200px;
     background-repeat: no-repeat; }
     .parallaxMobile__title {
       text-align: center;
-      padding: 55px 0 0;
+      padding: 80px 0 0;
       font-size: 20px;
-      color: #ffefd5;
-      text-shadow: 2px 2px 15px black; }
+      color: #65b352;
+      text-shadow: 2px 2px 15px #65b3528c; }
     .parallaxMobile__text {
       text-align: center;
-      color: #ffefd5;
-      text-shadow: 2px 2px 15px black;
+      color: #65b352;
+      text-shadow: 2px 2px 15px #65b3528c;
       font-size: 18px;
       margin-bottom: 0;
       padding-bottom: 15px; } }
