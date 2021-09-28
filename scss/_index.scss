@@ -54,3 +54,32 @@
         }
     }
 }
+
+//Caracteristicas
+
+.caracteristicas {
+    background-color: rgba(255, 255, 255, 0.767);
+    border-right: 1px solid black;
+    @media only screen and (max-width:767px) {
+        border-right: 0;
+    }
+}
+
+.caracteristicas1 {
+    background-color: rgba(255, 255, 255, 0.767); 
+
+}
+
+.iconMod {
+    border-radius: 70px;
+    margin: 10px 0 25px;
+    padding-top: 10px;
+    @media only screen and (max-width:767px) {
+        width: 40%;
+    }
+}
+
+.pMod {
+    font-size: $sizeFont-h4;
+    padding-bottom: 10px;
+}

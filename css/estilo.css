@@ -328,6 +328,28 @@ a.nav-link {
       font-weight: bold;
       font-size: 1.125em; }
 
+.caracteristicas {
+  background-color: rgba(255, 255, 255, 0.767);
+  border-right: 1px solid black; }
+  @media only screen and (max-width: 767px) {
+    .caracteristicas {
+      border-right: 0; } }
+
+.caracteristicas1 {
+  background-color: rgba(255, 255, 255, 0.767); }
+
+.iconMod {
+  border-radius: 70px;
+  margin: 10px 0 25px;
+  padding-top: 10px; }
+  @media only screen and (max-width: 767px) {
+    .iconMod {
+      width: 40%; } }
+
+.pMod {
+  font-size: 1.5rem;
+  padding-bottom: 10px; }
+
 .novedades {
   background-color: #fddfdf6b;
   width: 100%;
@@ -372,7 +394,7 @@ a.nav-link {
     .novedadesMobile__texto {
       font-size: 1.9rem;
       text-align: center;
-      margin-bottom: 15px;
+      margin: 30px 0 15px;
       font-weight: bold; } }
 
 .footer {

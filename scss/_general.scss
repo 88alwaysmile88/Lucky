@@ -3,17 +3,20 @@ $bg-body: #fff7f3;
 $bg-header: white;
 $bg-nav: #fddfdf;
 $bg-form: #c79fe786;
+
 // Font Color
 $colFont-nav: #c79fe7;
 $colFont-pg-h1: #c8e6c9;
+
 // Font Size
 $sizeFont-h1: 3.375rem;
 $sizeFont-h2: $sizeFont-h1 - 0.625rem;
 $sizeFont-h3: $sizeFont-h2 - 0.625rem;
 $sizeFont-h4: $sizeFont-h3 - 0.625rem;
-$font-family: "Vollkorn",
-serif;
+$font-family: "Vollkorn",serif;
+
 $center: center;
+
 //  MIXIN
 @mixin display($display, $justify-content) {
     display: $display;
