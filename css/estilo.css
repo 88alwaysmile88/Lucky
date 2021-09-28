@@ -20,9 +20,12 @@
     background-color: #ffffff; }
 
 .card-general, .card-size {
-  width: 85%;
+  width: 60%;
   margin: auto;
   margin-bottom: 40px; }
+  @media only screen and (max-width: 767px) {
+    .card-general, .card-size {
+      width: 85%; } }
 
 .card-individual, .card-body {
   padding: 15px; }

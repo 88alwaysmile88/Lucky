@@ -47,9 +47,12 @@ $center: center;
 
 //EXTEND-Cards
 .card-general {
-    width: 85%;
+    width: 60%;
     margin: auto;
     margin-bottom: 40px;
+    @media only screen and (max-width: 767px) {
+        width: 85%;
+    }
 }
 
 .card-individual {

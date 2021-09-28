@@ -24,6 +24,9 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Nuestro CSS-->
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
@@ -80,7 +83,7 @@
         <h1 class="contacto__title contacto__title--font">Contacto</h1>
     </div>
     <section>
-        <form action="#" method="#">
+        <form action="#" method="#" data-aos="zoom-in">
 
             <div class="form">
                 <div class="grupo">
@@ -163,7 +166,13 @@
             <p class="cr__text">Copyright © 2021 Lucky - Powered by Cynthia</p>
         </div>
     </div>
-
+    <!--AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000
+        });
+    </script>
     <!--Bootstrap JS-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
