@@ -13,7 +13,8 @@ $sizeFont-h1: 3.375rem;
 $sizeFont-h2: $sizeFont-h1 - 0.625rem;
 $sizeFont-h3: $sizeFont-h2 - 0.625rem;
 $sizeFont-h4: $sizeFont-h3 - 0.625rem;
-$font-family: "Vollkorn",serif;
+$font-family: "Vollkorn",
+serif;
 
 $center: center;
 
@@ -29,6 +30,7 @@ $center: center;
     background: transparent;
     border: 1.5px solid $colFont-nav;
     transition: 0.2s;
+
     &:hover {
         background-color: $colFont-nav;
         color: white;
@@ -42,6 +44,7 @@ $center: center;
     font-weight: bold;
     border-radius: 2px;
     transition: all 0.15s;
+
     &:focus {
         box-shadow: 1px 1px 5px 2px $colFont-nav;
         background-color: #ffffff;
@@ -53,6 +56,7 @@ $center: center;
     width: 60%;
     margin: auto;
     margin-bottom: 40px;
+
     @media only screen and (max-width: 767px) {
         width: 85%;
     }
@@ -86,6 +90,7 @@ html {
     padding: 0;
     box-sizing: border-box;
     font-family: $font-family;
+
     &::selection {
         color: #ffffff;
         background-color: rgb(160, 97, 212);
@@ -117,6 +122,7 @@ a {
     text-align: center;
     font-size: 3em;
     font-weight: bold;
+
     @media only screen and (width: 767px) {
         font-size: $sizeFont-h3;
     }

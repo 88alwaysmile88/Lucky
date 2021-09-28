@@ -6,6 +6,7 @@ $bannerMobile-Img: url(../assets/img/natmobile1.jpg);
     .parallaxMobile {
         display: none;
     }
+
     .parallax {
         font-size: 1.6rem;
         width: 100%;
@@ -15,8 +16,8 @@ $bannerMobile-Img: url(../assets/img/natmobile1.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-    
-    
+
+
         &__title {
             text-align: center;
             padding: 140px 0 25px;
@@ -24,14 +25,14 @@ $bannerMobile-Img: url(../assets/img/natmobile1.jpg);
             color: papayawhip;
             text-shadow: 2px 2px 15px black;
         }
-    
+
         &__text {
             text-align: center;
             color: rgba(255, 239, 213, 0.877);
             text-shadow: 2px 2px 15px black;
             font-size: $sizeFont-h2;
         }
-    
+
     }
 }
 
@@ -39,13 +40,14 @@ $bannerMobile-Img: url(../assets/img/natmobile1.jpg);
     .parallax {
         display: none;
     }
+
     .parallaxMobile {
         font-size: 1.6rem;
         width: 100%;
         background-image: $bannerMobile-Img;
         height: 200px;
         background-repeat: no-repeat;
-    
+
         &__title {
             text-align: center;
             padding: 80px 0 0;
@@ -53,7 +55,7 @@ $bannerMobile-Img: url(../assets/img/natmobile1.jpg);
             color: #65b352;
             text-shadow: 2px 2px 15px #65b3528c;
         }
-    
+
         &__text {
             text-align: center;
             color: #65b352;
@@ -62,7 +64,6 @@ $bannerMobile-Img: url(../assets/img/natmobile1.jpg);
             margin-bottom: 0;
             padding-bottom: 15px;
         }
-    
+
     }
 }
-

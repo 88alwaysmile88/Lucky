@@ -6,6 +6,7 @@
     font-size: 1.6rem;
     padding: 0 0 0 0;
     text-align: center;
+
     &__text {
         font-size: $sizeFont-h3;
         @include display (inline-flex, center);
@@ -13,11 +14,13 @@
         padding-top: 30px;
         padding-right: 10px;
     }
+
     &__email {
         color: #ba8be0;
         font-weight: bold;
         @extend .input-text;
     }
+
     &__submit {
         width: 7.1875em;
         height: 1.875em;
@@ -46,11 +49,13 @@
     .novedades {
         display: none;
     }
+
     .novedadesMobile {
         font-size: 1.6rem;
         display: block;
         text-align: center;
         margin: 0 0 30px;
+
         &__texto {
             font-size: $sizeFont-h4 + 0.4rem;
             text-align: center;
@@ -91,10 +96,12 @@
         font-size: 1.6rem;
         padding-left: 100px;
     }
+
     @media only screen and (min-width:768px) and (max-width:1023px) {
         font-size: 1.6em;
         padding-left: 0px;
     }
+
     @media only screen and (max-width:767px) {
         font-size: 1.6em;
         text-align: center;
@@ -111,6 +118,7 @@
 .contactanos,
 .redes {
     padding: 0 100px;
+
     @media only screen and (max-width: 767px) {
         padding: 0;
     }
@@ -189,9 +197,11 @@
     text-align: center;
     padding: 15px;
     margin: 0;
+
     &__text {
         margin-bottom: 0;
         font-weight: bold;
+
         @media only screen and (max-width: 767px) {
             font-weight: normal;
         }
