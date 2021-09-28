@@ -174,7 +174,7 @@ a {
 
 /* Inferior */
 .navBt {
-  font-size: 2.125rem;
+  font-size: 1.5rem;
   z-index: 20;
   background-color: #fddfdf;
   opacity: 0.8;
@@ -229,7 +229,7 @@ a {
 
 a.nav-link {
   color: #c79fe7 !important;
-  font-size: 18px; }
+  font-size: 20px; }
 
 #navbarNav {
   background-color: #fddfdf; }
@@ -370,7 +370,7 @@ a.nav-link {
     text-align: center;
     margin: 0 0 3.125em; }
     .novedadesMobile__texto {
-      font-size: 1.5rem;
+      font-size: 1.9rem;
       text-align: center;
       margin-bottom: 15px;
       font-weight: bold; } }
