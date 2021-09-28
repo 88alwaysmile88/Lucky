@@ -20,14 +20,14 @@ $bannerMobile-Img: url(../assets/img/natmobile.jpg);
         &__title {
             text-align: center;
             padding: 140px 0 25px;
-            font-size: $sizeFont-h1;
+            font-size: $sizeFont-h1 + 0.5rem;
             color: papayawhip;
             text-shadow: 2px 2px 15px black;
         }
     
         &__text {
             text-align: center;
-            color: rgba(255, 239, 213, 0.842);
+            color: rgba(255, 239, 213, 0.877);
             text-shadow: 2px 2px 15px black;
             font-size: $sizeFont-h2;
         }
@@ -56,7 +56,7 @@ $bannerMobile-Img: url(../assets/img/natmobile.jpg);
     
         &__text {
             text-align: center;
-            color: #ffefd5d7;
+            color: #ffefd5;
             text-shadow: 2px 2px 15px black;
             font-size: 18px;
             margin-bottom: 0;

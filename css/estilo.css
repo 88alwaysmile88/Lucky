@@ -116,7 +116,7 @@ a {
   .navTop__buscador {
     align-self: start;
     margin: 0.625em;
-    background-color: #fddfdf96;
+    background-color: #ffffff;
     opacity: 0.8;
     width: 11.875em;
     height: 1.875em; }
@@ -249,12 +249,12 @@ a.nav-link {
     .parallax__title {
       text-align: center;
       padding: 140px 0 25px;
-      font-size: 3.375rem;
+      font-size: 3.875rem;
       color: papayawhip;
       text-shadow: 2px 2px 15px black; }
     .parallax__text {
       text-align: center;
-      color: rgba(255, 239, 213, 0.842);
+      color: rgba(255, 239, 213, 0.877);
       text-shadow: 2px 2px 15px black;
       font-size: 2.75rem; } }
 
@@ -275,7 +275,7 @@ a.nav-link {
       text-shadow: 2px 2px 15px black; }
     .parallaxMobile__text {
       text-align: center;
-      color: #ffefd5d7;
+      color: #ffefd5;
       text-shadow: 2px 2px 15px black;
       font-size: 18px;
       margin-bottom: 0;
@@ -331,7 +331,7 @@ a.nav-link {
 .novedades {
   background-color: #fddfdf6b;
   width: 100%;
-  height: 108px;
+  height: 85px;
   font-size: 1.6rem;
   padding: 0 0 0 0;
   text-align: center; }
@@ -340,7 +340,7 @@ a.nav-link {
     display: inline-flex;
     justify-content: center;
     flex-direction: row;
-    padding-top: 2.1em;
+    padding-top: 30px;
     padding-right: 10px; }
   .novedades__email {
     color: #ba8be0;
@@ -478,7 +478,7 @@ a.nav-link {
   width: 25px; }
 
 .cr {
-  background-color: #f3cccc;
+  background-color: #f3cccce1;
   font-size: 1.5rem;
   text-align: center;
   padding: 15px;

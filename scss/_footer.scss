@@ -2,7 +2,7 @@
 .novedades {
     background-color: #fddfdf6b;
     width: 100%;
-    height: 108px;
+    height: 85px;
     font-size: 1.6rem;
     padding: 0 0 0 0;
     text-align: center;
@@ -10,7 +10,7 @@
         font-size: $sizeFont-h3;
         @include display (inline-flex, center);
         flex-direction: row;
-        padding-top: 2.1em;
+        padding-top: 30px;
         padding-right: 10px;
     }
     &__email {
@@ -184,7 +184,7 @@
 
 // FOOTER INFERIOR
 .cr {
-    background-color: #f3cccc;
+    background-color: #f3cccce1;
     font-size: $sizeFont-h4;
     text-align: center;
     padding: 15px;
