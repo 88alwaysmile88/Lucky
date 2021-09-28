@@ -24,6 +24,9 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Nuestro CSS-->
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
@@ -84,7 +87,7 @@
         <div>
             <div class="row row-cols-1 row-cols-md-2 card-size">
                 <div class="col mb-4">
-                    <div class="card">
+                    <div class="card" data-aos="fade-down-right">
                         <img src="../assets/img/shampoolavanda1.jpg" class="card-img-top" alt="shampoo solido de lavanda">
                         <div class="card-body">
                             <h5 class="card-title">Shampoo Sólido de Lavanda</h5>
@@ -93,7 +96,7 @@
                     </div>
                 </div>
                 <div class="col mb-4">
-                    <div class="card">
+                    <div class="card" data-aos="fade-down-left">
                         <img src="../assets/img/shampooavena1.jpg" class="card-img-top" alt="shampoo solido de avena">
                         <div class="card-body">
                             <h5 class="card-title">Shampoo Sólido de Avena</h5>
@@ -102,7 +105,7 @@
                     </div>
                 </div>
                 <div class="col mb-4">
-                    <div class="card">
+                    <div class="card" data-aos="fade-up-right">
                         <img src="../assets/img/shampoonaranja1.jpg" class="card-img-top" alt="shampoo solido de naranja">
                         <div class="card-body">
                             <h5 class="card-title">Shampoo Sólido de Naranja</h5>
@@ -111,7 +114,7 @@
                     </div>
                 </div>
                 <div class="col mb-4">
-                    <div class="card">
+                    <div class="card" data-aos="fade-up-left">
                         <img src="../assets/img/shampooromeroaloe1.jpg" class="card-img-top" alt="shampoo solido de romero y aloe vera">
                         <div class="card-body">
                             <h5 class="card-title">Shampoo Sólido de Aloe y Romero</h5>
@@ -165,7 +168,13 @@
             <p class="cr__text">Copyright © 2021 Lucky - Powered by Cynthia</p>
         </div>
     </div>
-
+    <!--AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000
+        });
+    </script>
     <!--Bootstrap JS-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>

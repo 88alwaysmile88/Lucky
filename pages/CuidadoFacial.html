@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <!-- AOS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Nuestro CSS-->
     <link rel="stylesheet" href="../css/estilo.css">
@@ -85,7 +85,7 @@
     <!-- Cards -->
     <div class="row row-cols-1 row-cols-md-2 card-size">
         <div class="col mb-4">
-            <div class="card">
+            <div class="card" data-aos="flip-left">
                 <img src="../assets/img/serumvitac1.jpg" class="card-img-top " alt="serum de vitamina c">
                 <div class="card-body">
                     <h5 class="card-title">Serum Vitamina C</h5>
@@ -94,7 +94,7 @@
             </div>
         </div>
         <div class="col mb-4">
-            <div class="card">
+            <div class="card" data-aos="flip-left">
                 <img src="../assets/img/aguamicelar1.jpg" class="card-img-top " alt="agua micelar">
                 <div class="card-body">
                     <h5 class="card-title ">Agua Micelar</h5>
@@ -103,7 +103,7 @@
             </div>
         </div>
         <div class="col mb-4">
-            <div class="card">
+            <div class="card" data-aos="flip-right">
                 <img src="../assets/img/mantecadecacao1.jpg" class="card-img-top" alt="manteca de cacao">
                 <div class="card-body ">
                     <h5 class="card-title">Protector labial</h5>
@@ -113,7 +113,7 @@
             </div>
         </div>
         <div class="col mb-4">
-            <div class="card">
+            <div class="card" data-aos="flip-right">
                 <img src="../assets/img/seruntrifasico1.jpg" class="card-img-top" alt="serum trifasico">
                 <div class="card-body">
                     <h5 class="card-title">Serum Trifásico</h5>
@@ -170,7 +170,9 @@
     <!--AOS-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init();
+        AOS.init({
+            duration: 2000
+        });
     </script>
     <!--Bootstrap JS-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
