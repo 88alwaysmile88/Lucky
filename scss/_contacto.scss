@@ -1,18 +1,23 @@
 section {
-
     @include display (flex, center);
     align-items: center;
     font-size: 1.6rem;
+    background-image: url(../assets/img/contacto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 50px 50px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px #2b2929;
+    justify-content: flex-end;
 }
-
 
 form {
     background-color: $bg-form;
     padding: .01em 0 1em;
-    margin: .5em 0 3.125em;
+    margin: 40px;
     box-shadow: 0 0 10px $bg-form;
     border-radius: 10px;
-
 }
 
 .form {
@@ -23,8 +28,6 @@ form {
 .grupo {
     position: relative;
     margin: 2.5em;
-
-
 }
 
 .form__input {
@@ -34,14 +37,12 @@ form {
     width: 100%;
     border: none;
     border-bottom: 1px solid;
-
     &:focus {
         outline: none;
         font-weight: bold;
         font-size: 1.125em;
         border-bottom: 2px solid $bg-body;
     }
-
 }
 
 label {
@@ -54,7 +55,6 @@ label {
     color: $colFont-pg-h1;
     font-weight: bold;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.253);
-
 }
 
 input:focus~label,
@@ -63,9 +63,7 @@ input:valid~label {
     font-size: 1.0625em;
     color: $bg-body;
     font-weight: bold;
-
 }
-
 
 .barra {
     position: relative;
@@ -73,16 +71,12 @@ input:valid~label {
     width: 100%;
 }
 
-
-
 .genero,
 .edad,
 .mensaje {
     padding: 0.5em;
     margin: 0 1.875em;
-
 }
-
 
 .genero__text,
 .edad,
@@ -97,7 +91,6 @@ input:valid~label {
 //     background-color: $bg-body;
 //     font-size: 1em;
 // }
-
 textarea {
     border-radius: 3px;
     width: 100%;
@@ -110,14 +103,11 @@ textarea {
 
 .edad__select {
     border-radius: 5px;
-
 }
-
 
 .aceptar,
 .enviar,
 .limpiar {
-
     margin: 0.9375em 0 0 1.25em;
 }
 
@@ -127,7 +117,6 @@ textarea {
     width: 100px;
     @extend .btn;
     background-color: $bg-body;
-
 }
 
 @media only screen and (max-width:600px) {

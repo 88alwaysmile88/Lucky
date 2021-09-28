@@ -1,3 +1,4 @@
+//Productos Destacados
 .prodDest {
     font-size: 1.6rem;
     max-width: 43.75em;
@@ -17,6 +18,7 @@
     }
 }
 
+//Carousel
 .carousel-title {
     font-size: $sizeFont-h2 - .5rem;
     text-shadow: 1px 1px 10px black;
@@ -27,9 +29,10 @@
     text-shadow: 0px 0px 10px black;
 }
 
+// Boton de Ver mas
 .verMas {
     font-size: 1.6rem;
-    margin: 1.25em auto;
+    margin: 1.25em auto 3.125em;
     padding: 0.25em;
     border-radius: 0.3125em;
     text-align: center;

@@ -311,7 +311,7 @@ a.nav-link {
 
 .verMas {
   font-size: 1.6rem;
-  margin: 1.25em auto;
+  margin: 1.25em auto 3.125em;
   padding: 0.25em;
   border-radius: 0.3125em;
   text-align: center;
@@ -487,12 +487,20 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  background-image: url(../assets/img/contacto.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px 50px 50px;
+  border-radius: 30px;
+  box-shadow: 0 0 10px #2b2929;
+  justify-content: flex-end; }
 
 form {
   background-color: #c79fe786;
   padding: .01em 0 1em;
-  margin: .5em 0 3.125em;
+  margin: 40px;
   box-shadow: 0 0 10px #c79fe786;
   border-radius: 10px; }
 
