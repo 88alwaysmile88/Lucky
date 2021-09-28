@@ -3,7 +3,7 @@
   border-radius: 5px;
   background: transparent;
   border: 1.5px solid #c79fe7;
-  transition: .2s; }
+  transition: 0.2s; }
   .btn:hover, .navTop__submit:hover, .novedades__submit:hover, .enviar:hover,
   .limpiar:hover {
     background-color: #c79fe7;
@@ -14,7 +14,7 @@
   color: #ba8be0;
   font-weight: bold;
   border-radius: 2px;
-  transition: all .15s; }
+  transition: all 0.15s; }
   .input-text:focus, .navTop__buscador:focus, .novedades__email:focus {
     box-shadow: 1px 1px 5px 2px #c79fe7;
     background-color: #ffffff; }
@@ -67,9 +67,9 @@ a {
 .capilar__title--font,
 .facial__title--font,
 .contacto__title--font {
-  color: #C8E6C9;
+  color: #c8e6c9;
   text-align: center;
-  font-size: 3.0em;
+  font-size: 3em;
   font-weight: bold; }
   @media only screen and (width: 767px) {
     .corporal__title--font,
@@ -128,7 +128,7 @@ a {
     height: 1.875em;
     margin: 0.625em 0; }
   .navTop__logo {
-    width: 70%;
+    width: 60%;
     min-width: 280px;
     justify-self: center; }
   .navTop__miCuenta {
@@ -177,9 +177,9 @@ a {
 
 /* Inferior */
 .navBt {
-  font-size: 1.6rem;
+  font-size: 2.125rem;
   z-index: 20;
-  background-color: #FDDFDF;
+  background-color: #fddfdf;
   opacity: 0.8;
   text-align: center;
   padding: 0.625em;
@@ -221,7 +221,7 @@ a {
       display: none; } }
 
 .navbar-toggler {
-  background-color: #FDDFDF;
+  background-color: #fddfdf;
   width: 13%;
   height: 10%;
   margin-right: 10px; }
@@ -235,7 +235,7 @@ a.nav-link {
   font-size: 18px; }
 
 #navbarNav {
-  background-color: #FDDFDF; }
+  background-color: #fddfdf; }
 
 @media only screen and (min-width: 768px) {
   .parallaxMobile {
@@ -293,7 +293,7 @@ a.nav-link {
     margin: 30px 0px;
     padding: 10px;
     text-align: center;
-    color: #C8E6C9;
+    color: #c8e6c9;
     text-shadow: 0.110em 0.110em 0.07em #85bd87;
     letter-spacing: 0.125em;
     word-spacing: 0.5em; }
@@ -306,7 +306,7 @@ a.nav-link {
   text-shadow: 1px 1px 10px black; }
 
 .carousel-text {
-  font-size: 1.8125rem;
+  font-size: 1.5rem;
   text-shadow: 0px 0px 10px black; }
 
 .verMas {
@@ -369,11 +369,11 @@ a.nav-link {
     text-align: center;
     margin: 3.125em 0; }
     .novedadesMobile__texto {
-      font-size: 1.8125rem;
+      font-size: 1.5rem;
       text-align: center; } }
 
 .footer {
-  background-color: #FDDFDF;
+  background-color: #fddfdf;
   padding: 30px 0; }
 
 .footer.row {
@@ -401,7 +401,7 @@ a.nav-link {
   .contactanos__mail,
   .contactanos__ws {
     font-size: 1.6em;
-    padding-left: 50px; } }
+    padding-left: 0px; } }
 
 @media only screen and (max-width: 767px) {
   .contactanos__mail,
@@ -417,6 +417,10 @@ a.nav-link {
 .contactanos,
 .redes {
   padding: 0 100px; }
+  @media only screen and (max-width: 767px) {
+    .contactanos,
+    .redes {
+      padding: 0; } }
 
 .contactanos ul,
 .redes ul {
@@ -470,6 +474,15 @@ a.nav-link {
   color: #45b653;
   width: 25px; }
 
+.cr {
+  background-color: #f3cccc;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 10px; }
+  .cr__text {
+    margin-bottom: 0;
+    font-weight: bold; }
+
 section {
   display: flex;
   justify-content: center;
@@ -511,7 +524,7 @@ label {
   top: 0.625em;
   transition: .4s ease-in-out all;
   pointer-events: none;
-  color: #C8E6C9;
+  color: #c8e6c9;
   font-weight: bold;
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.253); }
 

@@ -1,39 +1,31 @@
 // Background Color
 $bg-body: #fff7f3;
 $bg-header: white;
-$bg-nav: #FDDFDF;
-$bg-form:#c79fe786;
-
+$bg-nav: #fddfdf;
+$bg-form: #c79fe786;
 // Font Color
 $colFont-nav: #c79fe7;
-$colFont-pg-h1: #C8E6C9;
-
+$colFont-pg-h1: #c8e6c9;
 // Font Size
 $sizeFont-h1: 3.375rem;
 $sizeFont-h2: $sizeFont-h1 - 0.625rem;
 $sizeFont-h3: $sizeFont-h2 - 0.625rem;
-$sizeFont-h4: $sizeFont-h3 - 0.3125rem;
-
-
-$font-family: 'Vollkorn',
+$sizeFont-h4: $sizeFont-h3 - 0.625rem;
+$font-family: "Vollkorn",
 serif;
 $center: center;
-
 //  MIXIN
-@mixin display ($display, $justify-content) {
+@mixin display($display, $justify-content) {
     display: $display;
     justify-content: $justify-content;
 }
-
-
 
 // EXTEND Boton
 .btn {
     border-radius: 5px;
     background: transparent;
     border: 1.5px solid $colFont-nav;
-    transition: .2s;
-
+    transition: 0.2s;
     &:hover {
         background-color: $colFont-nav;
         color: white;
@@ -46,12 +38,10 @@ $center: center;
     color: #ba8be0;
     font-weight: bold;
     border-radius: 2px;
-    transition: all .15s;
-
+    transition: all 0.15s;
     &:focus {
         box-shadow: 1px 1px 5px 2px $colFont-nav;
         background-color: #ffffff;
-
     }
 }
 
@@ -76,13 +66,11 @@ $center: center;
     text-align: justify;
 }
 
-
 .center {
     text-align: $center;
 }
 
 // CSS General
-
 html {
     font-size: 62.5%;
 }
@@ -92,7 +80,6 @@ html {
     padding: 0;
     box-sizing: border-box;
     font-family: $font-family;
-
     &::selection {
         color: #ffffff;
         background-color: rgb(160, 97, 212);
@@ -101,10 +88,7 @@ html {
 
 body {
     background-color: $bg-body;
-
-
 }
-
 
 header {
     background-color: $bg-header;
@@ -118,18 +102,16 @@ a {
     text-decoration: none;
 }
 
-//Titulos de Pages 
-
+//Titulos de Pages
 .corporal__title--font,
 .capilar__title--font,
 .facial__title--font,
 .contacto__title--font {
     color: $colFont-pg-h1;
     text-align: center;
-    font-size: 3.0em;
+    font-size: 3em;
     font-weight: bold;
-
-    @media only screen and (width:767px) {
+    @media only screen and (width: 767px) {
         font-size: $sizeFont-h3;
     }
 }
