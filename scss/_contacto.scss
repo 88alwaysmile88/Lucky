@@ -10,14 +10,19 @@ section {
     border-radius: 30px;
     box-shadow: 0 0 10px #2b2929;
     justify-content: flex-end;
+    @media only screen and (max-width: 767px) {
+        margin: 0;
+    }
 }
 
 form {
     background-color: $bg-form;
     padding: .01em 0 1em;
-    margin: 40px;
-    box-shadow: 0 0 10px $bg-form;
-    border-radius: 10px;
+    margin: 30px;
+    border-radius: 30px;
+    @media only screen and (max-width: 767px) {
+        margin: 30px;
+    }
 }
 
 .form {
@@ -87,10 +92,6 @@ input:valid~label {
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.253);
 }
 
-// .edad:after {
-//     background-color: $bg-body;
-//     font-size: 1em;
-// }
 textarea {
     border-radius: 3px;
     width: 100%;
@@ -117,10 +118,4 @@ textarea {
     width: 100px;
     @extend .btn;
     background-color: $bg-body;
-}
-
-@media only screen and (max-width:600px) {
-    form {
-        width: 75%;
-    }
 }

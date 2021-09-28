@@ -120,7 +120,7 @@ a {
     align-self: start;
     margin: 0.625em;
     background-color: #fddfdf96;
-    opacity: .8;
+    opacity: 0.8;
     width: 11.875em;
     height: 1.875em; }
   .navTop__submit {
@@ -138,7 +138,7 @@ a {
     border-bottom: 1.5px solid #c79fe7;
     height: 1.5625em;
     text-decoration: none;
-    transition: all .18s; }
+    transition: all 0.18s; }
     .navTop__miCuenta:hover {
       text-shadow: 0.125em 0.125em 0.3125em #c79fe7;
       color: #c79fe7;
@@ -152,7 +152,7 @@ a {
     border-bottom: 0.0938em solid #c79fe7;
     height: 1.5625em;
     text-decoration: none;
-    transition: all .18s; }
+    transition: all 0.18s; }
     .navTop__carrito:hover {
       text-shadow: 0.125em 0.125em 0.3125em #c79fe7;
       color: #c79fe7;
@@ -496,13 +496,18 @@ section {
   border-radius: 30px;
   box-shadow: 0 0 10px #2b2929;
   justify-content: flex-end; }
+  @media only screen and (max-width: 767px) {
+    section {
+      margin: 0; } }
 
 form {
   background-color: #c79fe786;
   padding: .01em 0 1em;
-  margin: 40px;
-  box-shadow: 0 0 10px #c79fe786;
-  border-radius: 10px; }
+  margin: 30px;
+  border-radius: 30px; }
+  @media only screen and (max-width: 767px) {
+    form {
+      margin: 30px; } }
 
 .form {
   width: 100%;
@@ -583,10 +588,6 @@ textarea {
   display: inline-block;
   width: 100px;
   background-color: #fff7f3; }
-
-@media only screen and (max-width: 600px) {
-  form {
-    width: 75%; } }
 
 .error {
   font-size: 1.6rem;

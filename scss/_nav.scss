@@ -13,7 +13,7 @@
         align-self: start;
         margin: 0.625em;
         background-color: #fddfdf96;
-        opacity: .8;
+        opacity: 0.8;
         width: 11.875em;
         height: 1.875em;
         @extend .input-text;
@@ -36,7 +36,7 @@
         border-bottom: 1.5px solid $colFont-nav;
         height: 1.5625em;
         text-decoration: none;
-        transition: all .18s;
+        transition: all 0.18s;
         &:hover {
             text-shadow: 0.125em 0.125em 0.3125em $colFont-nav;
             color: $colFont-nav;
@@ -52,7 +52,7 @@
         border-bottom: 0.0938em solid $colFont-nav;
         height: 1.5625em;
         text-decoration: none;
-        transition: all .18s;
+        transition: all 0.18s;
         &:hover {
             text-shadow: 0.125em 0.125em 0.3125em $colFont-nav;
             color: $colFont-nav;
@@ -96,7 +96,7 @@
     opacity: 0.8;
     text-align: center;
     padding: 0.625em;
-    @include display (flex, space-evenly);
+    @include display(flex, space-evenly);
     margin-bottom: 0;
 }
 
