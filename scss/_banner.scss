@@ -23,13 +23,13 @@ $bannerMobile-Img: url(../assets/img/natmobile1.jpg);
             padding: 140px 0 25px;
             font-size: $sizeFont-h1 + 0.5rem;
             color: #ffefd5;
-            text-shadow: 2px 2px 15px black;
+            text-shadow: 2px 2px 15px #000000;
         }
 
         &__text {
             text-align: center;
             color: #ffefd5e0;
-            text-shadow: 2px 2px 15px black;
+            text-shadow: 2px 2px 15px #000000;
             font-size: $sizeFont-h2;
         }
 
