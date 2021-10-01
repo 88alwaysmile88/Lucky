@@ -28,9 +28,10 @@
     }
 
     &__logo {
-        width: 60%;
-        min-width: 280px;
+        width: 55%;
+        min-width: 200px;
         justify-self: center;
+        margin: 3px 0;
     }
 
     &__miCuenta {
@@ -106,7 +107,7 @@
     background-color: $bg-nav;
     opacity: 0.8;
     text-align: center;
-    padding: 0.625em;
+    padding: 5px;
     @include display(flex, space-evenly);
     margin-bottom: 0;
 }
@@ -121,10 +122,10 @@
 }
 
 .navBt ul .active {
-    border: 0.125em dotted #fff7f3;
+    border: 3px dotted #fff7f3;
     color: white;
     border-radius: 7px;
-}
+ }
 
 .navBt ul li:hover {
     border-radius: 0.1875em;
@@ -135,8 +136,8 @@
 .navBt ul li a {
     list-style: none;
     text-decoration: none;
-    margin: 0.9375em;
-    padding: 0.4375em;
+    margin: 15px;
+    padding: 7px;
     font-size: $sizeFont-h3;
     color: $colFont-nav;
 }

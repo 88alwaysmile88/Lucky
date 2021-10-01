@@ -11,9 +11,10 @@ $bannerMobile-Img: url(../assets/img/natmobile1.jpg);
         font-size: 1.6rem;
         width: 100%;
         background-image: $bannerDesktop-Img;
-        height: 400px;
+        height: 80vh;
         background-attachment: fixed;
         background-position: center;
+        background-position-y: 50px;
         background-repeat: no-repeat;
         background-size: cover;
 
@@ -43,10 +44,11 @@ $bannerMobile-Img: url(../assets/img/natmobile1.jpg);
 
     .parallaxMobile {
         font-size: 1.6rem;
-        width: 100%;
+        width: 100vw;
         background-image: $bannerMobile-Img;
         height: 200px;
         background-repeat: no-repeat;
+        background-size: cover;
 
         &__title {
             text-align: center;
