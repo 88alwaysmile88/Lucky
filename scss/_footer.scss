@@ -18,6 +18,7 @@
     &__email {
         color: #ba8be0;
         font-weight: bold;
+        padding: .5rem;
         @extend .input-text;
     }
 

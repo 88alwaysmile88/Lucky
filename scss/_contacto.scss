@@ -98,6 +98,8 @@ input:valid~label {
 textarea {
     border-radius: 3px;
     width: 100%;
+    background: #fff7f3a8;
+    padding: .5rem 1rem;
 }
 
 .genero__m,
@@ -108,6 +110,7 @@ textarea {
 .edad__select {
     border-radius: 5px;
 }
+
 
 .aceptar,
 .enviar,
