@@ -47,14 +47,14 @@
             color: $colFont-nav;
             text-decoration: none;
             font-size: 1.0625em;
-            border-bottom: 1px solid black;
+            border-bottom: 1px solid #000000;
         }
     }
 
     &__carrito {
         justify-self: center;
         margin: 0.625em;
-        color: black;
+        color: #000000;
         border-bottom: 0.0938em solid $colFont-nav;
         height: 1.5625em;
         text-decoration: none;
@@ -65,7 +65,7 @@
             color: $colFont-nav;
             text-decoration: none;
             font-size: 1.0625em;
-            border-bottom: 1px solid black;
+            border-bottom: 1px solid #000000;
         }
     }
 }
