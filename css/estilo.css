@@ -209,12 +209,15 @@ a {
   padding: 7px;
   font-size: 2.125rem;
   color: #bd94df; }
+  @media only screen and (min-width: 767px) and (max-width: 968px) {
+    .navBt ul li a {
+      font-size: 1.75rem; } }
 
 /* BARRA DE NAVEGACION MOBILE */
 .navbar-mobile {
   background-color: #ffffff;
   padding: 0; }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 767px) {
     .navbar-mobile {
       display: none; } }
 
@@ -235,7 +238,7 @@ a.nav-link {
 #navbarNav {
   background-color: #fddfdf; }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
   .parallaxMobile {
     display: none; }
   .parallax {

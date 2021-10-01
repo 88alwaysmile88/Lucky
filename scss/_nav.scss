@@ -1,6 +1,5 @@
 /* BARRA DE NAVEGACION DESKTOP/TABLET */
 
-
 /* Superior */
 
 .navTop {
@@ -140,6 +139,9 @@
     padding: 7px;
     font-size: $sizeFont-h3;
     color: $colFont-nav;
+    @media only screen and (min-width:767px) and (max-width: 968px) {
+        font-size: 1.75rem;
+    }
 }
 
 
@@ -149,7 +151,7 @@
     background-color: #ffffff;
     padding: 0;
 
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 767px) {
         display: none;
     }
 }

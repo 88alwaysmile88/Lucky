@@ -2,7 +2,7 @@ $bannerDesktop-Img: url(../assets/img/nature.jpg);
 $bannerMobile-Img: url(../assets/img/natmobile1.jpg);
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
     .parallaxMobile {
         display: none;
     }
