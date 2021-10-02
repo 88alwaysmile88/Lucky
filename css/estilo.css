@@ -21,11 +21,11 @@
 
 .card-general, .card-size {
   width: 60%;
-  margin: auto;
-  margin-bottom: 40px; }
+  margin: auto; }
   @media only screen and (max-width: 767px) {
     .card-general, .card-size {
-      width: 85%; } }
+      width: 85%;
+      margin-bottom: 30px; } }
 
 .card-individual, .card-body {
   padding: 15px; }
