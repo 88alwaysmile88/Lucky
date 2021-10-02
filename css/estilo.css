@@ -317,11 +317,11 @@ a.nav-link {
 
 .verMas {
   font-size: 1.6rem;
-  margin: 1.25em auto 3.125em;
+  margin: 1.875em auto 3.125em;
   padding: 0.25em;
-  border-radius: 0.3125em;
+  border-radius: 5px;
   text-align: center;
-  border: 0.3125em double #adadad;
+  border: 5px double #adadad;
   display: block;
   background-color: #FDDFDF;
   position: relative;
@@ -403,11 +403,11 @@ a.nav-link {
     font-size: 1.6rem;
     display: block;
     text-align: center;
-    margin: 0 0 30px; }
+    margin: 0 0 50px; }
     .novedadesMobile__texto {
       font-size: 1.9rem;
       text-align: center;
-      margin: 30px 0 15px;
+      margin: 0 0 15px;
       font-weight: bold; } }
 
 .footer {
