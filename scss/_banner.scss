@@ -53,7 +53,7 @@ $bannerMobile-Img: url(../assets/img/natmobile.jpg);
         &__title {
             text-align: center;
             padding: 80px 0 0;
-            font-size: 20px;
+            font-size: $sizeFont-h2;
             color: #65b352;
             text-shadow: 2px 2px 15px #65b3528c;
         }
@@ -62,7 +62,7 @@ $bannerMobile-Img: url(../assets/img/natmobile.jpg);
             text-align: center;
             color: #65b352;
             text-shadow: 2px 2px 15px #65b3528c;
-            font-size: 18px;
+            font-size: $sizeFont-h4 + 0.25rem;
             margin-bottom: 0;
             padding-bottom: 15px;
         }

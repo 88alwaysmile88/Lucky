@@ -276,14 +276,14 @@ a.nav-link {
     .parallaxMobile__title {
       text-align: center;
       padding: 80px 0 0;
-      font-size: 20px;
+      font-size: 2.75rem;
       color: #65b352;
       text-shadow: 2px 2px 15px #65b3528c; }
     .parallaxMobile__text {
       text-align: center;
       color: #65b352;
       text-shadow: 2px 2px 15px #65b3528c;
-      font-size: 18px;
+      font-size: 1.75rem;
       margin-bottom: 0;
       padding-bottom: 15px; } }
 
@@ -291,6 +291,10 @@ a.nav-link {
   font-size: 1.6rem;
   max-width: 43.75em;
   z-index: 10; }
+  @media only screen and (max-width: 767px) {
+    .prodDest {
+      padding-right: 0 !important;
+      padding-left: 0 !important; } }
   .prodDest__text {
     font-size: 2.425rem;
     margin: 30px 0px;
@@ -534,7 +538,7 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0px 50px 50px;
+  margin: 0rem 3.125em 3.125em;
   border-radius: 30px;
   box-shadow: 0 0 10px #2b2929;
   justify-content: flex-end; }
@@ -545,11 +549,11 @@ section {
 form {
   background-color: #c79fe786;
   padding: .01em 0 1em;
-  margin: 30px;
+  margin: 1.875em;
   border-radius: 30px; }
   @media only screen and (max-width: 767px) {
     form {
-      margin: 30px; } }
+      margin: 1.875em; } }
 
 .form {
   width: 100%;
@@ -558,6 +562,9 @@ form {
 .grupo {
   position: relative;
   margin: 2.5em; }
+  @media only screen and (max-width: 767px) {
+    .grupo {
+      margin: 1.875em; } }
 
 .form__input {
   background: none;
@@ -600,6 +607,11 @@ input:valid ~ label {
 .mensaje {
   padding: 0.5em;
   margin: 0 1.875em; }
+  @media only screen and (max-width: 767px) {
+    .genero,
+    .edad,
+    .mensaje {
+      padding: 0.5em 0; } }
 
 .genero__text,
 .edad,
@@ -630,7 +642,7 @@ textarea {
 .enviar,
 .limpiar {
   display: inline-block;
-  width: 100px;
+  width: 6.25em;
   background-color: #fff7f3; }
 
 .error {
