@@ -74,12 +74,14 @@ a {
   text-align: center;
   font-size: 3em;
   font-weight: bold; }
-  @media only screen and (width: 767px) {
+  @media only screen and (max-width: 767px) {
     .corporal__title--font,
     .capilar__title--font,
     .facial__title--font,
     .contacto__title--font {
-      font-size: 2.125rem; } }
+      font-size: 2.3125rem;
+      background: #bfe2c0c5;
+      color: cadetblue; } }
 
 .corporal__title,
 .capilar__title,
@@ -87,6 +89,13 @@ a {
 .contacto__title {
   margin: 30px 0;
   padding: 10px; }
+  @media only screen and (max-width: 767px) {
+    .corporal__title,
+    .capilar__title,
+    .facial__title,
+    .contacto__title {
+      margin-top: 0;
+      margin-bottom: 40px; } }
 
 .card {
   border-radius: 20px;
@@ -342,14 +351,14 @@ a.nav-link {
       font-size: 1.125em; }
 
 .caracteristicas {
-  background-color: rgba(255, 255, 255, 0.767);
+  background-color: #ffffffc4;
   border-right: 1px solid #000000; }
   @media only screen and (max-width: 767px) {
     .caracteristicas {
       border-right: 0; } }
 
 .caracteristicas1 {
-  background-color: rgba(255, 255, 255, 0.767); }
+  background-color: #ffffffc4; }
 
 .iconMod {
   border-radius: 70px;
@@ -365,6 +374,9 @@ a.nav-link {
 
 .mb {
   margin-bottom: 50px; }
+  @media only screen and (max-width: 767px) {
+    .mb {
+      margin-bottom: 0; } }
 
 .novedades {
   background-color: #fddfdf6b;

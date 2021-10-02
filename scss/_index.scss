@@ -71,7 +71,7 @@
 //Caracteristicas
 
 .caracteristicas {
-    background-color: rgba(255, 255, 255, 0.767);
+    background-color: #ffffffc4;
     border-right: 1px solid #000000;
 
     @media only screen and (max-width:767px) {
@@ -80,7 +80,7 @@
 }
 
 .caracteristicas1 {
-    background-color: rgba(255, 255, 255, 0.767);
+    background-color: #ffffffc4;
 }
 
 .iconMod {
@@ -100,5 +100,8 @@
 
 .mb {
     margin-bottom: 50px;
+    @media only screen and (max-width:767px){
+        margin-bottom: 0;
+    }
 }
 
