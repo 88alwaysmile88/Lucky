@@ -407,7 +407,9 @@ a.nav-link {
     font-size: 1.6rem;
     display: block;
     text-align: center;
-    margin: 0 0 50px; }
+    background: #fddfdf6b;
+    padding-top: 30px;
+    padding-bottom: 30px; }
     .novedadesMobile__texto {
       font-size: 1.9rem;
       text-align: center;

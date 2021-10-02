@@ -55,7 +55,9 @@
         font-size: 1.6rem;
         display: block;
         text-align: center;
-        margin: 0 0 50px;
+       background: #fddfdf6b;
+        padding-top: 30px;
+        padding-bottom: 30px;
 
         &__texto {
             font-size: $sizeFont-h4 + 0.4rem;
